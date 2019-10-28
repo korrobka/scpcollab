@@ -1,0 +1,105 @@
+body {
+	font: 9px Verdana, Arial, Helvetica, sans-serif;
+	background-color:#000;
+	color:#d0d0d0;
+}
+
+/*PIXELART*/
+img {
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: optimize-contrast;
+	image-rendering: pixelated;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+
+ul{
+	padding-left: 0;
+}
+
+@media (min-width: 340px) {
+  .container {
+    width: 95%;
+    padding: 0; }
+}
+@media (min-width: 360px) {
+  .container {
+    width: 90%;
+    padding: 0; }
+}
+
+/*RESPONSIVE*/
+.container {
+  position: relative;
+  width: 97%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box; }
+.row {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+
+  .row{ width: 100%; margin-left: 0; }
+}
+
+/*STYLES*/
+.submissions{
+	margin-top: 20px;
+}
+
+.submissions ul li{
+	display: block;
+	float: left;
+	margin:1px;
+	height: 75px;
+	width: 75px;
+	/*margin-bottom: -7px;*/
+}
+
+.submissions ul li:hover{
+	border-bottom: 1px solid #d0d0d0;
+	margin-top: 0;
+}
+
+.credits ul li{
+	list-style: none;
+	color:#c02621;
+	margin-left: 1px;
+	margin-top :5px;
+}
+.credits a{
+	background-color: #c02621;
+	color:#000;
+	padding: 1px 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.credits a:hover{
+	background-color: #000;
+	color:#c02621;
+	padding: 0px 4px;
+	border:1px solid #c02621;
+}
+.credits ul li > *{
+	display: inline-block;
+	float-left;
+}
+.credits ul li p{
+	margin:0;
+}
