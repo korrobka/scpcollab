@@ -144,7 +144,7 @@ ul{
 	background-color: #000;
 }
 .end a.box{
-	padding: 2px 2px 1px 2px;
+	padding: 0px 2px 2px 2px;
 	float: right;
 }
 a.box:hover{
