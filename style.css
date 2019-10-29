@@ -117,7 +117,7 @@ ul{
 	margin-left: 1px;
 	margin-top :5px;
 }
-.credits a{
+.credits a[href]{
 	background-color: #c30c00;
 	color:#000;
 	padding: 4px 4px;
@@ -125,12 +125,18 @@ ul{
 	font-weight: bold;
 }
 
-.credits a:hover{
+.credits a[href]:hover{
 	background-color: #000;
 	color:#c30c00;
 	padding: 2px 2px;
 	border:2px solid #c30c00;
 }
+
+.credits a{
+	font-weight: bold;
+	color: #d0d0d0;
+}
+
 .credits ul li > *{
 	display: inline-block;
 	float-left;
