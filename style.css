@@ -68,21 +68,32 @@ ul{
 	display: block;
 	float: left;
 	margin:1px;
-	height: 75px;
-	width: 75px;
 	/*margin-bottom: -7px;*/
+	width: 75px;
+	height: 75px;
+	/*UPSCALE*/
+	/*height: 150px;
+	width: 150px;*/
 }
 .image{
 	position: absolute;
-	height: 75px;
-	width: 75px;
 	z-index: 0;
+	width: 75px;
+	height: 75px;
+	/*UPSCALE*/
+	/*height: 150px;
+	width: 150px;*/
 }
 
 .overlay{
 	opacity: 0;
 	z-index: 1;
 }
+/*UPSCALE*/
+/*.submissions img{
+	width: 150px;
+	height: auto;
+}*/
 
 .submissions ul li:hover{
 	/*border-bottom: 1px solid #c30c00;*/
