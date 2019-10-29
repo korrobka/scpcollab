@@ -176,32 +176,3 @@ ul{
 .end .box:hover{
 	border-bottom: 3px solid #000;
 }
-
-/*.end{
-	background-color: #c30c00;
-	padding: 5px 5px 0px 5px;
-	margin: 0 1px;
-	color: #000;
-}
-.end p{
-	display: inline-block;
-	float: left;
-	margin: 0;
-}
-.end a{
-	font-weight: bold;
-	color:#000;
-}
-.end a:hover{
-	font-weight: bold;
-	color:#c30c00;
-	text-decoration: none;
-	background-color: #000;
-}
-.end a.box{
-	padding: 0px 2px 2px 2px;
-	float: right;
-}
-a.box:hover{
-	background-color: #d0d0d0;
-}*/
