@@ -4,6 +4,10 @@ window.txt = [];
 function parse(data) {
 	window.txt = JSON.parse(data);
 }
+//darken everything
+header.nextElementSibling.style="opacity: 0.0";
+header.nextElementSibling.nextElementSibling.style="opacity: 0.0";
+//except header
 
 parse(en)
 while(window.txt.length>0){
@@ -16,6 +20,10 @@ addcredit(window.txt.pop());
 }
 // en = "@aneckdope~1123; 4443.";
 // addcredit(en);
+header.nextElementSibling.style=null;
+header.nextElementSibling.nextElementSibling.style=null;
+end.style="opacity: 1";
+
 
 function addtile(entryname) {
 	let a = document.createElement('a');

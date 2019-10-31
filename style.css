@@ -62,7 +62,7 @@ ul{
 }
 
 /*STYLES*/
-.header img{
+#header img{
 	width: 300px;
 	height: auto;
 }
@@ -146,26 +146,27 @@ ul{
 	margin-left: 10px;
 }
 
-.end{
+#end{
+	opacity: 0;
 	clear: both;
 	background-color: #c30c00;
 	color: #000;
 	height:23px;
 }
 
-.end .row div{
+#end .row div{
 	display: inline-block;
 	float: left;
 	padding: 4px 2px;
 }
-.end .box{
+#end .box{
 	float: right;
 	width: 32px;
 	height: auto;
 	padding-bottom: 2px;
 	margin-top:-2px;
 }
-.end .row a div{
+#end .row a div{
 	color:#000;
 	font-weight: bold;
 	text-decoration: underline;
@@ -173,13 +174,13 @@ ul{
 	border-top: 2px solid #000;
 }
 
-.end .row a div:hover{
+#end .row a div:hover{
 	background-color: #000;
 	color:#c30c00;
 	text-decoration: none;
 	border-bottom: 0px solid #000;
 }
 
-.end .box:hover{
+#end .box:hover{
 	border-bottom: 3px solid #000;
 }
