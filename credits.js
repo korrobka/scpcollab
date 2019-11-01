@@ -26,7 +26,7 @@ cr = `[
 "@Lyim_pxl~681; 2006.",
 "@ManiHACKManfred~2980.",
 "@AGenericPan~2980.",
-"@Mottley~1499.",
+"@Mottley_~1499.",
 "@Ozzioniz~500; 1032; 1150; 2194; 3760.",
 "@neibern__~2635; 2649.",
 "@Oroshibu~035; 096; 106; 513; 966.",
