@@ -5,7 +5,6 @@ var en =
 "jonathan-ball-s-proposal",
 "church-of-the-broken-god-hub",
 "scp-002",
-"scp-007",
 "scp-008",
 "scp-013",
 "scp-014-j",
