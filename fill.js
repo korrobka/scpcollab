@@ -1,5 +1,6 @@
 "use strict"
 
+let column = -1;
 window.txt = [];
 function parse(data) {
 	window.txt = JSON.parse(data);
@@ -16,7 +17,8 @@ addtile(window.txt.pop());
 
 parse(cr)
 while(window.txt.length>0){
-addcredit(window.txt.pop());
+addcredit(window.txt.pop(),column);
+column = column*-1;
 }
 // en = "@aneckdope~1123; 4443.";
 // addcredit(en);
@@ -44,7 +46,7 @@ function addtile(entryname) {
 	entries.prepend(a);
 }
 
-function addcredit(creditstring) {
+function addcredit(creditstring,col) {
 	let link
 	let tpos = creditstring.indexOf("~",0)
 	if (creditstring[0]=="@") link = "href=\"https://twitter.com/"+ creditstring.slice(1,tpos) +"\"";
@@ -53,11 +55,18 @@ function addcredit(creditstring) {
 	let li = document.createElement('li');
 	let inhtml;
 
+	// inhtml = 	"<a target=\"_blank\" " +
+	// 			link + ">" +
+	// 			creditstring.slice(0, tpos ) + "</a>" +//name
+	// 			"<p>~</p> <p>" +
+	// 			creditstring.slice(tpos+1) + "</p>"; //pieces
+
 	inhtml = 	"<a target=\"_blank\" " +
 				link + ">" +
 				creditstring.slice(0, tpos ) + "</a>" +//name
-				"<p>~</p> <p>" +
+				"<br><p>" +
 				creditstring.slice(tpos+1) + "</p>"; //pieces
+
 	li.insertAdjacentHTML("beforeend",inhtml);
 	collective.prepend(li);
 }

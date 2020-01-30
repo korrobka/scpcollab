@@ -120,21 +120,32 @@ ul{
 .credits a[href]{
 	background-color: #c30c00;
 	color:#000;
-	padding: 4px 4px;
+	border-bottom: 0px;
 	text-decoration: none;
 	font-weight: bold;
+
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .credits a[href]:hover{
 	background-color: #000;
 	color:#c30c00;
-	padding: 2px 2px;
-	border:2px solid #c30c00;
+	/*padding: 2px 6px;*/
+	border-left:8px solid #c30c00;
+
+	padding-left: 4px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .credits a{
 	font-weight: bold;
 	color: #d0d0d0;
+	border-bottom: 2px solid #c30c00;
 }
 
 .credits ul li > *{
@@ -143,8 +154,32 @@ ul{
 }
 .credits ul li p{
 	margin:0;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
+	margin-bottom: 10px;
+	border-left: 2px dotted #c30c00;
+	padding-top: 5px;
+	padding-left: 5px;
 }
+
+.credits ul li{
+	width: 100%;
+	display: inline-block;
+}
+.credits ul li:nth-child(odd){
+	margin-right: 10px;
+}
+
+@media (min-width: 320px) {
+	.credits ul li{
+		width: 100%;
+	}
+}
+@media (min-width: 600px) {
+	.credits ul li{
+		width: 46%;
+	}
+}
+
 
 #end{
 	opacity: 0;
