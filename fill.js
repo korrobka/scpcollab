@@ -64,7 +64,7 @@ function addcredit(creditstring,col) {
 	inhtml = 	"<a target=\"_blank\" " +
 				link + ">" +
 				creditstring.slice(0, tpos ) + "</a>" +//name
-				"<br><p>" +
+				"<p>" +
 				creditstring.slice(tpos+1) + "</p>"; //pieces
 
 	li.insertAdjacentHTML("beforeend",inhtml);

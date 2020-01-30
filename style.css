@@ -115,7 +115,7 @@ ul{
 	list-style: none;
 	color:#c30c00;
 	margin-left: 1px;
-	margin-top :5px;
+	margin-top :0px;
 }
 .credits a[href]{
 	background-color: #c30c00;
@@ -124,28 +124,32 @@ ul{
 	text-decoration: none;
 	font-weight: bold;
 
-	padding-left: 8px;
+	padding-left: 10px;
 	padding-right: 8px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .credits a[href]:hover{
 	background-color: #000;
 	color:#c30c00;
 	/*padding: 2px 6px;*/
-	border-left:8px solid #c30c00;
+	border-left:6px solid #c30c00;
+	/*border-right: 2px solid #c30c00;*/
 
 	padding-left: 4px;
-	padding-right: 8px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .credits a{
 	font-weight: bold;
 	color: #d0d0d0;
 	border-bottom: 2px solid #c30c00;
+
+	padding-right: 6px;
+	padding-bottom: 3px;
 }
 
 .credits ul li > *{
@@ -155,9 +159,10 @@ ul{
 .credits ul li p{
 	margin:0;
 	/*margin-left: 10px;*/
-	margin-bottom: 2px;
+	margin-bottom: 8px;
 	border-left: 2px dotted #c30c00;
 	padding-top: 5px;
+	padding-bottom: 5px;
 	padding-left: 5px;
 }
 
