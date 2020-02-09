@@ -21,7 +21,7 @@ cr = `[
 "@fossilbro ~ 8; 939; 1528.",
 "Fridge ~ 200; 258.",
 "@Fusionnist ~ 1669; 1686.",
-"@GabeHasWon ~ 2841.",
+"@GabeHasWon ~ 3841.",
 "@theonetruegarbo ~ 2966.",
 "@retardalliator ~ 100.",
 "GooGroker ~ 339; 2162; 2662.",
