@@ -7,7 +7,6 @@ var en =
 "wjs-proposal",
 "scp-000",
 "scp-002",
-"scp-007",
 "scp-008",
 "scp-009",
 "scp-013",
